@@ -6,10 +6,10 @@ from numpy.random import choice as npc
 from torch.utils.data import Dataset
 
 
-class OmniglotTrain(Dataset):
+class RoofTrain(Dataset):
 
     def __init__(self, dataset, transform=None):
-        super(OmniglotTrain, self).__init__()
+        super(RoofTrain, self).__init__()
         np.random.seed(0)
         self.dataset = dataset
         self.transform = transform
@@ -62,11 +62,11 @@ class OmniglotTrain(Dataset):
         return image1, image2, path10, path20, torch.from_numpy(np.array([label], dtype=np.float32))
 
 
-class OmniglotTest(Dataset):
+class RoofTest(Dataset):
 
     def __init__(self, dataset, transform=None, times=200, way=20):
         np.random.seed(1)
-        super(OmniglotTest, self).__init__()
+        super(RoofTest, self).__init__()
         self.dataset = dataset
         self.transform = transform
         self.times = times
@@ -118,5 +118,5 @@ class OmniglotTest(Dataset):
 
 # test
 if __name__ == '__main__':
-    omniglotTrain = OmniglotTrain('./images_background', 30000 * 8)
-    print(omniglotTrain)
+    roofTrain = RoofTrain('./images_background', 30000 * 8)
+    print(roofTrain)
