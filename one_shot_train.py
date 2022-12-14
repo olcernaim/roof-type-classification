@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader
 from torchvision import transforms
 #import seaborn as sns
 from model import Siamese
-from mydataset import OmniglotTrain, OmniglotTest
+from mydataset import RoofTrain, RoofTest
 
 if __name__ == '__main__':
     cuda = torch.cuda.is_available()
@@ -28,8 +28,8 @@ if __name__ == '__main__':
     way = 3
     times = 200
 
-    dataSet = OmniglotTrain(train_dataset, transform=data_transforms)
-    testSet = OmniglotTest(test_dataset, transform=transforms.ToTensor(), times=times, way=way)
+    dataSet = RoofTrain(train_dataset, transform=data_transforms)
+    testSet = RoofTest(test_dataset, transform=transforms.ToTensor(), times=times, way=way)
     testLoader = DataLoader(testSet, batch_size=way, shuffle=False, num_workers=12)
     dataLoader = DataLoader(dataSet, batch_size=32, shuffle=False, num_workers=1)  # Her 32 resimde 1
 
