@@ -13,6 +13,6 @@ Data
 * Cati images are of three types of examples, Flat, Gable, and Hip, and were produced by the authors using Autodesk Maya software
 
 Codes
-*one_shot_model.py is the code for create Siamese model.
-*one_shot_mydataset.py is the code for read and label the dataset.
-*one_shot_train.py is the code for train your dataset and for get results.
+* one_shot_model.py is the code for create Siamese model.
+* one_shot_mydataset.py is the code for read and label the dataset.
+* one_shot_train.py is the code for train your dataset and for get results.
