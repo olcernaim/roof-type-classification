@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Roof Type Classification with Innovative Machine Learning Approaches: code and baseline notebooks"
+type: software
+version: "1.1.0"
+date-released: 2026-10-03
+license: MIT
+repository-code: "https://github.com/olcernaim/roof-type-classification"
+authors:
+  - family-names: "Ölçer"
+    given-names: "Naim"
+    affiliation: "Department of Computer Engineering, Başkent University, Ankara, Turkey"
+  - family-names: "Ölçer"
+    given-names: "Didem"
+    affiliation: "Department of Computer Engineering, Başkent University, Ankara, Turkey"
+  - family-names: "Sümer"
+    given-names: "Emre"
+    affiliation: "Department of Computer Engineering, Başkent University, Ankara, Turkey"
+preferred-citation:
+  type: article
+  title: "Roof type classification with innovative machine learning approaches"
+  journal: "PeerJ Computer Science"
+  volume: 9
+  start: "e1217"
+  year: 2023
+  doi: "10.7717/peerj-cs.1217"
+  authors:
+    - family-names: "Ölçer"
+      given-names: "Naim"
+    - family-names: "Ölçer"
+      given-names: "Didem"
+    - family-names: "Sümer"
+      given-names: "Emre"
