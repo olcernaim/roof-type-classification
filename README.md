@@ -16,3 +16,9 @@ Codes
 * one_shot_model.py is the code for create Siamese model.
 * one_shot_mydataset.py is the code for read and label the dataset.
 * one_shot_train.py is the code for train your dataset and for get results.
+
+Acknowledgements and licence
+
+* The Siamese-network code in `one_shot_model.py`, `one_shot_mydataset.py` and `one_shot_train.py` is adapted from the open-source PyTorch implementation for Omniglot by fangpin (https://github.com/fangpin/siamese-pytorch), which declares no licence. The data loaders, the training script and all roof-specific changes are by the authors.
+* The authors' modifications are released under the MIT licence (see `LICENSE`). The MIT licence does not cover the original code by fangpin.
+* The synthetic roof images (`cati*.jpg`) were produced by the authors and are released under CC BY 4.0. Building data used elsewhere in the study are (c) OpenStreetMap contributors (ODbL). Google Maps imagery is not redistributed.
