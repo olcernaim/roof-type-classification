@@ -1,0 +1,25 @@
+20 Resim
+(60, 224, 224, 3)
+60
+Test loss: 491.0423278808594
+Test accuracy: 0.3333333432674408
+0.3333333432674408
+491.0423278808594
+
+TRAINING DATA RESULTS
+Accuracy:   0.3333333333333333
+F1:         [0.5 0.  0. ]
+Precision:  [0.33333333 0.         0.        ]
+Recall:     [1. 0. 0.]
+Confusion:  [[20  0  0]
+ [20  0  0]
+ [20  0  0]]
+
+TEST DATA RESULTS
+Accuracy:   0.3333333333333333
+F1:         [0.5 0.  0. ]
+Precision:  [0.33333333 0.         0.        ]
+Recall:     [1. 0. 0.]
+Confusion:  [[2400    0    0]
+ [2400    0    0]
+ [2400    0    0]]
