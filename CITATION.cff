@@ -8,13 +8,10 @@ license: MIT
 repository-code: "https://github.com/olcernaim/roof-type-classification"
 authors:
   - family-names: "Ölçer"
-    given-names: "Naim"
-    affiliation: "Department of Computer Engineering, Başkent University, Ankara, Turkey"
-  - family-names: "Ölçer"
     given-names: "Didem"
     affiliation: "Department of Computer Engineering, Başkent University, Ankara, Turkey"
-  - family-names: "Sümer"
-    given-names: "Emre"
+  - family-names: "Ölçer"
+    given-names: "Naim"
     affiliation: "Department of Computer Engineering, Başkent University, Ankara, Turkey"
 preferred-citation:
   type: article
